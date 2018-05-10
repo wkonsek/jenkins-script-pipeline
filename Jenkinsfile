@@ -1,4 +1,4 @@
 node('master'){
 	checkout scm
-	echo "Hello world 1"
+	echo "Hello world 12"
 }
