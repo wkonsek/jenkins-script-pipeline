@@ -1,4 +1,4 @@
 node('master'){
 	checkout scm
-	echo "Hello world !as!!!  "
+	echo "TEST!!!  "
 }
