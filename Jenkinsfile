@@ -1,6 +1,6 @@
 node('master'){
 	checkout scm
-	echo "TEST!!!  "
-	tag = helpers.getGitTag()
+	echo "TEST!!! *** "
+	def tag = helpers.getGitTag()
 	print tag
 }
